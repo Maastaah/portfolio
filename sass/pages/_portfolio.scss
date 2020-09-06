@@ -1,0 +1,43 @@
+.portfolio_left {
+  @include borderAndShadow;
+  @include textStyling;
+  font-size: $contentFontSize;
+  background-color: $primary_color;
+  margin-top: 2em;
+  padding: 1.5em;
+  width: $contentWidth;
+  img {
+    border: 2px solid $border_color;
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 1em;
+  }
+  h1 {
+    font-size: $topicHeaderFontSize;
+    border-bottom: 2px solid $highlight_color;
+    margin-bottom: 10px;
+  }
+}
+
+.portfolio_right {
+  @include borderAndShadow;
+  @include textStyling;
+  font-size: $contentFontSize;
+  background-color: $primary_color;
+  margin-top: 2em;
+  padding: 1.5em;
+  width: $contentWidth;
+  img {
+    border: 2px solid $border_color;
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin: 1em;
+  }
+  h1 {
+    font-size: $topicHeaderFontSize;
+    border-bottom: 2px solid $highlight_color;
+    margin-bottom: 10px;
+  }
+}

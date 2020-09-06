@@ -1,0 +1,49 @@
+/* Front page portfolio sections collapsible */
+
+#works {
+  @include flexCenter;
+  flex-direction: column;
+  width: $contentWidth;
+  padding: 2em;
+  .collapsible {
+    @include borderAndShadow;
+    background-color: $primary_color;
+    cursor: pointer;
+    padding: 3em;
+    width: 100%;
+    font-size: $contentFontSize;
+    &:hover {
+      background-color: $light_color;
+    }
+  }
+  .work_content {
+    @include borderAndShadow;
+    width: inherit;
+    font-size: $contentFontSize;
+    background-color: $light_color;
+    padding: 2em;
+    display: block;
+    a {
+      color: $highlight_color;
+    }
+    a:hover {
+      background-color: $dark_color;
+    }
+  }
+
+  .otsikko {
+    @include borderAndShadow;
+    padding: 2em;
+    margin-top: $containerMarginTop;
+    margin-bottom: 0;
+    width: inherit;
+    background-color: $primary_color;
+    overflow: hidden;
+    h1 {
+      font-size: $topicHeaderFontSize;
+      border-bottom: 2px solid $highlight_color;
+    }
+  }
+}
+
+/* Collapsible end */

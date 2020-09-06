@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/36872c4548.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/portfolio-scripts.js"></script>
+
+    <title>Jesse Mäkinen - Portfolio</title>
+</head>
+
+<body>
+    <section id="bannerAlt">
+        <article class="hero-textAlt">
+            <h1>Jesse Mäkinen</h1>
+            <h2>Satakunnan Ammattikorkeakoulu</h2>
+            <br>
+            <h3>Portfolio</h3>
+        </article>
+    </section>
+    <nav id="flex-navbar">
+        <div class="flex-navbar-1"><a href="index.html" class="fas fa-home">Etusivu</a></div>
+        <div class="flex-navbar-2 here"><a href="portfolio.html" class="fas fa-laptop-code">Portfolio</a></div>
+        <div class="flex-navbar-3"><a href="blog.html" class="fas fa-newspaper"> Blog</a></div>
+        <div class="flex-navbar-4"><a href="contact.html" class="far fa-id-card"> Yhteystiedot</a></div>
+    </nav>
+    <section id="page">
+        <div class="portfolio_left">
+            <div>
+                <h1 id="portfolioAnchor">Omat porfolio sivut</h1>
+            </div>
+            <div>
+                <img src="img/portfoli_site/front_page.png" alt="etusivu">
+                <p>Omat portfolio sivut ovat olleet mietinnässä jo pitkään mutta ajatus kongretisoitui vasta kesällä
+                    2020
+                    kun kesäkurssina kävin JAMK:in Web-tekniikat kurssin. Kurssin lopputyönä olivat siis nämä sivut.</p>
+                <br>
+                <p>Perus web-tekniikat kuten html ja css olivat jo ennestään tuttuja, vaikkakin edellisestä
+                    kosketuksesta
+                    onkin jo vuosia. Kurssi kyllä toi hyvin mieleen
+                    ennestään opittuja asioita sekä uusia tekniikoita, varsinki liittyen HTML5:een ja mikä tärkeintä,
+                    pakotti käyttämään erilaisia tekniikoita. Nämä ovat siis tällä hetkellä
+                    rakennettu pääosin ilman kirjastoja, mutta jatkokehityksenä on tutustua bootstrappiin ja saada
+                    näistä
+                    vieläkin nykyaikaisemmat</p>
+                <br>
+                <p>Opiskelin myös sivuja tehdessä SASS tekniikkaa, vaikkakaan ehkä tämän kokoinen projekti ei sitä olisi
+                    vaatinut. SASS oli mielenkiintoinen kieli joka nopeuttaa kyllä css filujen räpläämistä, enkä usko
+                    että
+                    osaan enää elää ilman. Samaisesta JAMK:ista kävin kesällä myös web-ohjelmointi ja
+                    web-palvelinohjelmointi kurssit ja niiden osaamista on tähän myös vähäisesti sovellettu.</p>
+            </div>
+        </div>
+        <div class="portfolio_right">
+            <div>
+                <h1 id="liikennelaskuriAnchor">Liikennelaskuri UI</h1>
+            </div>
+            <div> <img src="img/liikennelaskuri/front_page.png" alt="etusivu">
+                <p>Koulukaveri kävi kesällä IOT-peruskurssin jonka yhtenä tehtävänä oli suunnitella joku IOT-sovellus.
+                    Itse
+                    olen
+                    vähän räplännyt arduinoa joten ehdotin arduino pohjaista vempelettä johon voi sitten tuikkia
+                    erilaisia
+                    sensoreita.</p>
+                <br>
+                <p>Kaveri kertoo tehtävässään näin:
+                    <span style=font-style:italic>"Eräs satakuntalainen kunnanpoliitikko
+                        sanoi, että Luvialla sijaitseva Laitakarintie olisi vain ”hiljainen kylätie” ja todistaakseni
+                        hänet
+                        vääräksi (ja saadaksemme toivon mukaan tien routavauriot korjatuksi) aion suunnitella ja
+                        toteuttaa
+                        liikenteenlaskijan.
+                        <br>
+                        Tarkoituksena on laskea tietä käyttävät moottoriajoneuvot, pyörät sekä
+                        kävelijät. Laskea autojen, pyörien ja kävelijöiden keskinopeudet sekä mitata tietoa
+                        lämpötilasta,
+                        ilman kosteudesta ja valoisuudesta.
+                        <br>
+                        Datalla pystyy siis eri vuodenaikoihin ja päivien lämpötiloihin, vuorokaudenaikoihin ja
+                        kosteuteen
+                        nähden korreloida liikenteen määrää"
+                    </span>
+                </p>
+                <p>
+                    <br>
+                    <b>
+                        Data is beautiful!
+                    </b>
+                    <br>
+                </p>
+                <br>
+                <p>Tämä UI on rakennettu näyttämään arduinosta saatu data nettisivuilla. Tällä hetkellä sivusto toimii
+                    täysin random generoidun datan kanssa. Joten järkeviä käppyröitä ei saa piirrettyä.</p>
+                <br>
+                <p>Etusivulla näkyy kaikki arduinosta saatu data taulukossa. "Data" sivulta saa sitten näkymään
+                    erilaisia
+                    käppyröitä mitä datasta on tulkittu.</p>
+            </div>
+        </div>
+        <div class="portfolio_left">
+            <div>
+                <h1>Satakunnan Elävän Kuvan Keskukselle uudet nettisivut</h1>
+            </div>
+            <div>
+                <img src="img/sekk/SEKK logo.jpg" alt="sekk_logo">
+                <p>Satakunnan Elävän Kuvan Keskus tarvitsi uudet sivut sisällönhallinnalla joten tässä oli oiva
+                    tilaisuus
+                    tutustua Wordpress alustaa. Sivuissa on haettu selkää ja nykyaikaista ulkoasua mutta kuitenkin
+                    yhdistyksen taiteellisuus huomioon ottaen. Sivut odottavat asiakkaan materiaaleja ja viimeistä
+                    silausta.
+                    <br><br>
+                <h3>Ai mikä SEKK ry?</h3>
+                <p>SEKK ry on satakuntalainen elokuva- ja mediakulttuuriyhteisö. Se toimii alueensa kulttuurisena
+                    elokuvakeskuksena. Toimenkuva on edistää alueella omaehtoista media- ja elokuvakulttuuria.
+                    <br><br>
+                    Satakunnan Elävän Kuvan Keskus ry on painottunut AV-mediakasvatukseen sekä kansalaisjournalismiin.
+                    Satakunnassa on vuosien video- ja elokuvakerhoharrastuspohja, elokuvan ja videon ammattilaisia ja
+                    koulutusta</p>
+                Sivut löydät täältä: <a href="http://sekk.fi/sekk_uudet_testi/">Satakunnan Elävän Kuvan Keskus
+                    ry</a></p>
+            </div>
+        </div>
+        <div class="portfolio_right">
+            <div>
+                <h1 id="liikennelaskuriAnchor">Autonvaraus app</h1>
+            </div>
+            <div> <img src="" alt="etusivu">
+                <p>Idea appiin lähti kun perheen auto oli yhteiskäytössä myös ihmisillä eri osotteissa. Appissa voit
+                    varata auton kalenterista käyttöösi syöttämällä päivämäärän ja kellon ajan milloin sitä tarvitset.
+                    Mahdollisuus on myös syöttää palautuspäivä ja kellonaika. Appissa on myös yhdistettynä
+                    menovedenkulutus laskuri ja siihen syöttämien kilometrien mukaan appi myös ilmoittaa onko tulossa
+                    jokin kilometrihuolto vastaan. Myös huollot kirjataan ja sitä mukaan kertoo seuraavan vuosihuollon
+                </p>
+            </div>
+        </div>
+        <div class="portfolio_left">
+            <div>
+                <h1>Unity-kurssi peli</h1>
+            </div>
+            <div>
+                <img src="" alt="etusivu">
+                <p>Tulossa</p>
+            </div>
+        </div>
+        <div class="portfolio_right">
+            <div>
+                <h1>WPF Webscraper</h1>
+            </div>
+            <div>
+                <img src=" " alt="etusivu">
+                <p>Webscraper hakee hakusanalla murobbs, io-tech, huuto.net ja tori.fi sivustoilta myynti-ilmoituksia
+                    tuo ne WPF ikkunaan listana.</p>
+            </div>
+        </div>
+        <div class="portfolio_left">
+            <div>
+                <h1>Paikkainfo app</h1>
+
+            </div>
+            <div>
+                <img src="" alt="etusivu">
+                <p>Puhelimen paikkatietojen perusteella voitaisiin kertoa tietoja vaikka kaupungin eri patsaista,
+                    puistoista tai muista nähtävyyksistä.</p>
+            </div>
+        </div>
+        <div class="portfolio_right">
+            <div>
+                <h1>Kauppakuitti vertailu</h1>
+            </div>
+            <div>
+                <img src=" " alt="etusivu">
+                Raspberry pi kameramoduulin kautta skannattaisiin citymarketin kuitti ja softa vertaisi sitä
+                foodiesta löytyviin tuotteisiin. Nähtäisiin paljonko tulisi säästöä, vai tuleeko.
+            </div>
+        </div>
+    </section>
+    <footer>
+        <address>Jesse Mäkinen, Satakunnan Ammattikorkeakoulu, 0409108303, jessemakinen@hotmail.com</address>
+    </footer>
+</body>
+
+</html>

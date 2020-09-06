@@ -1,0 +1,32 @@
+/* Sticky + navbar css */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#flex-navbar a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#flex-navbar a:hover {
+  background-color: $dark_color;
+}
+
+#flex-navbar {
+  background-color: $light_color;
+  height: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: $containerMarginTop;
+}
+
+.here {
+  background-color: $dark_color;
+  height: 100%;
+}
+/* Navbar end */
